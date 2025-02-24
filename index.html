@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSS Extensions Form Mockup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Execute</h2>
+    
+    <div class="form-group">
+      <label for="application">Application</label>
+      <select id="application" name="application">
+        <option value="bssExtensions">BSS Extensions</option>
+        <option value="pbm">PBM</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="serviceName">Service Name</label>
+      <select id="serviceName" name="serviceName">
+        <option value="casl">CASL - Subscription Management</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="flowName">Flow Name</label>
+      <select id="flowName" name="flowName">
+        <option value="addOffer">Add Offer</option>
+        <option value="removeOffer">Remove Offer</option>
+        <option value="voucherTopup">Voucher Topup</option>
+        <option value="chargePayment">Charge Payment</option>
+        <option value="queryEligibility">Query Eligibility</option>
+        <option value="allServices">All Services</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="environment">Select Environment</label>
+      <select id="environment" name="environment">
+        <option value="qa01">QA01</option>
+        <option value="qa02">QA02</option>
+        <option value="qa03">QA03</option>
+        <option value="dev3">Dev3</option>
+        <option value="dev2">Dev2</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="ctn">CTN</label>
+      <input type="text" id="ctn" name="ctn" placeholder="10 Digit">
+    </div>
+
+    <div class="form-group">
+      <label for="offerId">Offer Id</label>
+      <input type="text" id="offerId" name="offerId" placeholder="">
+    </div>
+
+    <div class="form-group">
+      <label for="customerId">Customer Id</label>
+      <input type="text" id="customerId" name="customerId" placeholder="12 Digit PIN">
+    </div>
+
+    <div class="form-group">
+      <label for="voucherNumber">Voucher Number</label>
+      <input type="text" id="voucherNumber" name="voucherNumber" placeholder="">
+    </div>
+
+    <button type="submit">Execute</button>
+  </div>
+</body>
+</html>
